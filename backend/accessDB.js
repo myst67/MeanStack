@@ -50,7 +50,7 @@ module.exports = {
 
         treeDetails.find({'treeId': updateObjectDetails.treeid}, {}, function(err, tree) {
             if (err) {
-                console.log("Error getting cms: " + err);
+                console.log("Error getting from tree: " + err);
             } else {
                 
                 var treeNamea = tree[0].treeName;
